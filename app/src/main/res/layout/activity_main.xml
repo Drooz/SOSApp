@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.drooz.sos.MainActivity">
+
+    <Button
+        android:text="Contact Manager"
+        android:onClick="contactStart"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="addContact"
+        android:text="Add Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:text="SOS"
+        android:onClick="sos"
+        android:textSize="70dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/cir_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>
